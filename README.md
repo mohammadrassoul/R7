@@ -31,7 +31,7 @@ cd ..
 <span>cd $HOME && git clone https://github.com/mohammadrassoul/R7</span>
 </pre>
 
-2️⃣** سپس سورس را کلون میکنیم :
+
 git clone https://github.com/MaTaDoRTeaM/MaTaDoR
 ======================
 3️⃣ وارد شماره‌ ربات میشویم و  یه ربات (api) با
