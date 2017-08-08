@@ -7,8 +7,7 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz;tar zxpf luarocks-2.2.2.
 
 git clone https://github.com/mohammadrassoul/R7
 
-7️⃣ دستورات زیر در ترمینال وارد کنید ...
-cd MaTaDoR/cli
+cd R7/cli
 
 chmod +x matador.sh
 
