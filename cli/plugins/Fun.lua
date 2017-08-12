@@ -167,7 +167,7 @@ end
 		text = text..'\nغروب آفتاب: '..data.Sunset
 		text = text..'\nاذان مغرب: '..data.Maghrib
 		text = text..'\nعشاء : '..data.Isha
-		text = text..'\n@MaTaDoRTeaM\n'
+		text = text..'\n@RsEvEn\n'
 		return tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'html')
 	end
 --------------------------------
@@ -191,7 +191,7 @@ end
   end
 --------------------------------
 if matches[1]:lower() == 'test' then
-return tdcli.sendDocument(msg.chat_id_, 0, 0, 1, nil, './Fun/ping.gif', '@MaTaDoRTeaM', dl_cb, nil)
+return tdcli.sendDocument(msg.chat_id_, 0, 0, 1, nil, './Fun/ping.gif', '@RsEvEn', dl_cb, nil)
 end
 --------------------------------
 if matches[1] == 'bold' or matches[1] == 'Bold' or matches[1] == 'بولد' then
@@ -298,7 +298,7 @@ local text = '*Ir Time:* _'..jdat.FAtime..'_\n*Ir Data:* _'..jdat.FAdate..'_\n--
 		local url = "https://assets.imgix.net/examples/clouds.jpg?blur=150&w="..w.."&h="..h.."&fit=crop&txt="..eq.."&txtsize="..txtsize.."&txtclr="..txtclr.."&txtalign=middle,center&txtfont=Futura%20Condensed%20Medium&mono=ff6598cc"
 		local receiver = msg.to.id
 		local  file = download_to_file(url,'text.jpg')
-		tdcli.sendPhoto(msg.to.id, 0, 0, 1, nil, file, "@MaTaDoRTeaM", dl_cb, nil)
+		tdcli.sendPhoto(msg.to.id, 0, 0, 1, nil, file, "@RsEvEn", dl_cb, nil)
 	end
 
 end
